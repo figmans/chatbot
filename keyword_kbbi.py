@@ -3,7 +3,7 @@ import csv
 # buat dict kosong yang akan terisi kata dan definisinya
 kamus = {}
 
-with open('data/kamus.csv',newline='') as csvfile:
+with open('datacsv/kamus.csv',newline='') as csvfile:
     # delimiternya '|', karena ini jarang dipakai
     # kecil kemungkinannya untuk error dalam pemprosesan
     baris  = csv.reader(csvfile,delimiter='|')
